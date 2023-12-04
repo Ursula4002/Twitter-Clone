@@ -4,7 +4,7 @@ function Layout({children}) {
     return (
         <>
             <div className="left-sidebar"/>
-            {children}
+            {children} 
             <div className="right-sidebar" />
         </>
     );
