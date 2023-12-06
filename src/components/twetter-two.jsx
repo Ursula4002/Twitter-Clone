@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 function TwiterTwo() {
+=======
+-onefunction TwiterTwo() {
+>>>>>>> 5fa9aec99bf6d96e4b2182b2ade03009da46dd52
 
     return (
         <div className="tweet">
