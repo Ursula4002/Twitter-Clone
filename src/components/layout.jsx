@@ -1,12 +1,13 @@
 import React from 'react';
-import LeftSideBar from './sidebar/left-sidebar';
+import { Outlet } from "react-router-dom";
+import LeftSideBarIcons from './sidebar/left-sidebar-icons';
 
-function Layout({children}) {
+function Layout() {
     return (
         <>
             <div className="left-sidebar"/>
-            <LeftSideBar />
-            {children} 
+            <LeftSideBarIcons />
+            <Outlet/>
             <div className="right-sidebar" />       
         </>
     );
