@@ -21,6 +21,7 @@
     "vite": "^4.5.0"
   },
   "dependencies": {
+    "magic-string": "^0.30.5",
     "react-router-dom": "^6.20.1"
   }
 }
