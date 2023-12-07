@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
 
 
-body{
+body {
     background-color: black;
     color: white;
     margin: 0 auto;
     max-width: 1800px;
 }
 
-#root{
+#root {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -44,7 +44,7 @@ body{
     align-items: flex-start;
     justify-content: flex-start;
     gap: 20px;
-    padding:  .3rem 1rem;
+    padding: .3rem 1rem;
     border-bottom: 1px solid #2F3336;
 }
 
@@ -89,10 +89,12 @@ body{
     /*padding: 0.8rem 0;*/
     gap: 1rem;
 }
+
 .tweet-editor-actions button {
     background-color: transparent;
     border: none;
 }
+
 .button {
     text-transform: capitalize;
     padding: .7rem 1.5rem;
@@ -102,7 +104,8 @@ body{
     color: white;
     font-size: 1rem;
 }
-.tweet{
+
+.tweet {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -117,12 +120,13 @@ body{
     flex: 0 0 70px;
 }
 
-.tweet-avatar img{
+.tweet-avatar img {
     max-width: 100%;
     max-height: 100px;
     border-radius: 100%;
 }
-.tweet-content{
+
+.tweet-content {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -130,12 +134,14 @@ body{
     gap: 30px;
     width: 100%;
 }
-.tweet-body{
+
+.tweet-body {
     display: flex;
     flex-direction: column;
     gap: .5rem;
 }
-.tweet-title{
+
+.tweet-title {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -143,27 +149,30 @@ body{
     font-size: 1rem;
 }
 
-.tweet-title svg{
+.tweet-title svg {
     width: 1.2rem;
     height: auto;
 }
-.tweet-title-author{
+
+.tweet-title-author {
     font-size: 1rem;
 }
-.tweet-title-details{
+
+.tweet-title-details {
     color: #6E767D;
 }
-.tweet-text{
+
+.tweet-text {
     color: #D9D9D9;
     font-size: 1rem;
 }
 
-.tweet-image{
+.tweet-image {
     width: 100%;
-    padding:  .3rem 0 0 0;
+    padding: .3rem 0 0 0;
 }
 
-.tweet-image img{
+.tweet-image img {
     max-width: 100%;
     height: auto;
     border-radius: 50px;
@@ -187,13 +196,35 @@ body{
     color: #2F3336;
 }
 
-.tweet-action{
+.tweet-action {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
 }
+/* Left Sidebar */
 
-.active{
-    color:red;
+.active {
+    color: white;
 }
+
+.sidebar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50vh;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.items img {
+    margin:15px 5px 5px 10px;
+}
+

@@ -15,17 +15,21 @@ function LeftSideBarIcons() {
 
     return (
         <>
-            <NavigationIcons urlIcon={TwitterLogo} />
-            <NavigationIcons content=" Home " urlIcon={HomeNavbar} navigateTo={"/"}/>
-            <NavigationIcons content=" Message " urlIcon={MessageNavbar} />
-            <NavigationIcons content=" Explore " urlIcon={ExploreNavbar} />
-            <NavigationIcons content=" Notifications " urlIcon={Notification} />
-            <NavigationIcons content=" Booksmarks " urlIcon={BooksMarks} />
-            <NavigationIcons content=" Lists " urlIcon={ListsNabar} />
-            <NavigationIcons content=" Profile " urlIcon={Profile} navigateTo={"/profile"} />
-            <NavigationIcons content=" More... " urlIcon={More} />
-            <Button />
+            <div className="sidebar">
+                <div className="items">
 
+                    <NavigationIcons urlIcon={TwitterLogo} />
+                    <NavigationIcons content=" Home " urlIcon={HomeNavbar} navigateTo={"/"} />
+                    <NavigationIcons content=" Message " urlIcon={MessageNavbar} />
+                    <NavigationIcons content=" Explore " urlIcon={ExploreNavbar} />
+                    <NavigationIcons content=" Notifications " urlIcon={Notification} />
+                    <NavigationIcons content=" Booksmarks " urlIcon={BooksMarks} />
+                    <NavigationIcons content=" Lists " urlIcon={ListsNabar} />
+                    <NavigationIcons content=" Profile " urlIcon={Profile} navigateTo={"/profile"} />
+                    <NavigationIcons content=" More... " urlIcon={More} />
+                    <Button />
+                </div>
+            </div >
         </>
     )
 }

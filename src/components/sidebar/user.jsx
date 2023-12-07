@@ -1,6 +1,9 @@
-function User(){
-    return(
-        <div>User</div>
+function User() {
+    return (
+        <div className="profile">
+            Profile
+
+        </div>
     )
 }
 

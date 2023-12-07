@@ -1,6 +1,7 @@
 import React from 'react';
 import { Outlet } from "react-router-dom";
 import LeftSideBarIcons from './sidebar/left-sidebar-icons';
+import RightSideBarItems from './right-sidebar/right-sidebar';
 
 function Layout() {
     return (
@@ -8,7 +9,9 @@ function Layout() {
             <div className="left-sidebar"/>
             <LeftSideBarIcons />
             <Outlet/>
-            <div className="right-sidebar" />       
+            <div className="right-sidebar" />  
+            <RightSideBarItems />
+                
         </>
     );
 }
