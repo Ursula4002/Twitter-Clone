@@ -206,6 +206,12 @@ body {
 
 .active {
     color: white;
+    text-decoration: none;
+
+}
+
+.active:hover{
+    /* background-color: blue; */
 }
 
 .sidebar {
@@ -228,3 +234,26 @@ body {
     margin:15px 5px 5px 10px;
 }
 
+
+.trend-actions {
+    margin-top: 10px;
+   
+}
+
+.trend-actions{
+    display: flex;
+}
+
+.show-more-trends-container {
+    flex-direction: column;
+    border-left: 1px solid #2F3336;
+    border-right: 1px solid #2F3336;
+
+} 
+
+.Follow-suggestion{
+    width: 50%;
+    border-left: 1px solid #2F3336;
+    border-right: 1px solid #2F3336;
+
+}

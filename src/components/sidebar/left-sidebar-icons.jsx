@@ -30,7 +30,7 @@ function LeftSideBarIcons() {
                     <Button />
                 </div>
             </div >
-        </>
+        </> 
     )
 }
 

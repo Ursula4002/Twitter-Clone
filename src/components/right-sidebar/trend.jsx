@@ -1,13 +1,11 @@
-import {NavLink} from "react-router-dom";
 
-function Trend({content,urlIcon,navigateTo}) {
+function Trend({trendingPlace,ashtag,tweetsNumber}) {
 
     return (
         <div>
-            <NavLink to={navigateTo}>
-            <img src={urlIcon} alt="" />
-            {content}
-            </NavLink>
+            {trendingPlace}
+            {ashtag}
+            {tweetsNumber}
         </div>
     )
 }

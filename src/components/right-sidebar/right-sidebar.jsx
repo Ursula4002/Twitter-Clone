@@ -1,32 +1,28 @@
-
-// import NavigationIcons from "./navigation-icons"
-// import ExploreNavbar from './icons/explore-navbar.svg'
-// import MessageNavbar from '../sidebar/icons/message-navbar.svg'
-// import HomeNavbar from '../sidebar/icons/Home-Fill.svg'
-// import BooksMarks from '../sidebar/icons/bookmarks-navbar.svg'
-// import ListsNabar from '../sidebar/icons/lists-navbar.svg'
-// import Profile from '../sidebar/icons/profile-navbar.svg'
-// import More from '../sidebar/icons/lists-navbar.svg'
-// import Notification from '../sidebar/icons/notification-icon.svg'
-// import TwitterLogo from '../sidebar/icons/Twiter-logo-navbar.svg'
-// import Button from "../button"
+import Trend from "./trend";
+import FollowSuggestion from "./follow-suggestions";
 
 function RightSideBarItems() {
 
     return (
         <>
-        
-            {/* <NavigationIcons urlIcon={TwitterLogo} />
-            <NavigationIcons content=" Home " urlIcon={HomeNavbar} navigateTo={"/"} />
-            <NavigationIcons content=" Message " urlIcon={MessageNavbar} />
-            <NavigationIcons content=" Explore " urlIcon={ExploreNavbar} />
-            <NavigationIcons content=" Notifications " urlIcon={Notification} />
-            <NavigationIcons content=" Booksmarks " urlIcon={BooksMarks} />
-            <NavigationIcons content=" Lists " urlIcon={ListsNabar} />
-            <NavigationIcons content=" Profile " urlIcon={Profile} navigateTo={"/profile"} />
-            <NavigationIcons content=" More... " urlIcon={More} />
-            <Button />
-            <h1>blabla</h1> */}
+            <div className="trend-actions">
+                <div className="show-more-trends-container">
+
+                    <Trend trendingPlace=" Trending in Turkey " ashtag="#SQUID" tweetsNumber="2,066 Tweets" />
+                    <Trend trendingPlace=" Trending in Turkey " ashtag="#SQUID" tweetsNumber="2,066 Tweets" />
+                    <Trend trendingPlace=" Trending in Turkey " ashtag="#SQUID" tweetsNumber="2,066 Tweets" />
+                    <Trend trendingPlace=" Trending in Turkey " ashtag="#SQUID" tweetsNumber="2,066 Tweets" />
+                    <h1 className="show-more-trends">
+                        Show more
+                    </h1>
+                </div>
+                <br />
+                <div className="Follow-suggestion">
+                    <FollowSuggestion />
+                </div>
+            </div>
+
+
         </>
     )
 }
