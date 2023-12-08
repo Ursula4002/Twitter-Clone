@@ -8,11 +8,11 @@ function FollowSuggestion() {
     return (
         <>
             <div className="show-more-suggestions-container">
-             <p>Who to follow</p>
-                <RightSideAvatar urlIcon={CnnProfile}/>
-                <RightSideAvatar urlIcon={TheNyTimes}/>
-                <RightSideAvatar urlIcon={TwitterProfil}/>
-                <h1 className="show-more-trends">
+             <p>Who to follow</p><br />
+                <RightSideAvatar urlIcon={CnnProfile} content="The New York Times"/>
+                <RightSideAvatar urlIcon={TheNyTimes} content="CNN"/>
+                <RightSideAvatar urlIcon={TwitterProfil} content="Twitter"/>
+                <h1 className="show-more-trends"><br />
                     <p>Show more</p>
                 </h1>
 

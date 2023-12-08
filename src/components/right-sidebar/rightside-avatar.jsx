@@ -1,7 +1,7 @@
-function RightSideAvatar({ urlIcon }) {
+function RightSideAvatar({ urlIcon,content }) {
     return (
-        <div className="avatar">
-            <img src={urlIcon} alt="" />
+        <div>
+            <img src={urlIcon} alt="" /> {content}
         </div>
     )
 }

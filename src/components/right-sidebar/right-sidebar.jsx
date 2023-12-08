@@ -12,12 +12,13 @@ function RightSideBarItems() {
                     <Trend trendingPlace=" Trending in Turkey " ashtag="#SQUID" tweetsNumber="2,066 Tweets" />
                     <Trend trendingPlace=" Trending in Turkey " ashtag="#SQUID" tweetsNumber="2,066 Tweets" />
                     <Trend trendingPlace=" Trending in Turkey " ashtag="#SQUID" tweetsNumber="2,066 Tweets" />
+                    <br />
                     <h1 className="show-more-trends">
                         Show more
                     </h1>
                 </div>
                 <br />
-                <div className="Follow-suggestion">
+                <div className="follow-suggestion">
                     <FollowSuggestion />
                 </div>
             </div>

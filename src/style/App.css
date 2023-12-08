@@ -202,6 +202,7 @@ body {
     justify-content: center;
     gap: 20px;
 }
+
 /* Left Sidebar */
 
 .active {
@@ -210,7 +211,7 @@ body {
 
 }
 
-.active:hover{
+.active:hover {
     /* background-color: blue; */
 }
 
@@ -227,31 +228,37 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    
+
 }
 
 .items img {
-    margin:15px 5px 5px 10px;
+    margin: 15px 5px 5px 10px;
 }
 
+
+.show-more-trends {
+    margin-top: 10px;
+    color: rgb(57, 123, 184);
+}
 
 .trend-actions {
-    margin-top: 10px;
-   
-}
-
-.trend-actions{
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .show-more-trends-container {
+    display: flex;
     flex-direction: column;
+    align-items: center;
     border-left: 1px solid #2F3336;
     border-right: 1px solid #2F3336;
+    padding: 10px;
+    margin-bottom: 10px;
+}
 
-} 
-
-.Follow-suggestion{
+.follow-suggestion {
+    order: 1;
     width: 50%;
     border-left: 1px solid #2F3336;
     border-right: 1px solid #2F3336;
